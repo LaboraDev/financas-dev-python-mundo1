@@ -1,303 +1,219 @@
 # 🚀 LaboraDev - Python Mundo 1
 
-**Repositorio colaborativo do projeto LaboraDev - Aulas, Desafios e Projeto Final de Financas**
+**Repositório colaborativo do projeto LaboraDev - Aulas, Desafios e Projeto Final de Finanças**
+
+---
+
+## 👥 Equipe
+
+- **Amélia** - Coordenação do projeto
+- **Ana** - Desenvolvimento e testes
+- **Isaura** - Documentação e boas práticas
 
 ---
 
 ## 📚 Sobre o Projeto
 
-Este repositorio contem todo o material do curso **Python Mundo 1** da plataforma LaboraDev, incluindo:
+Este repositório contém todo o material do curso **Python Mundo 1** da plataforma LaboraDev, incluindo:
 
-- ✅ Aulas praticas (Aula 06 a 10)
-- ✅ Desafios diarios e semanais
-- ✅ Projeto final: Sistema de Financas
-- ✅ Documentacao e referencias
+- ✅ Aulas práticas (Aula 06 a 18)
+- ✅ Desafios diários e semanais
+- ✅ Projeto final: Sistema de Finanças
+- ✅ Documentação e referências
 
 ---
 
-## 📁 Estrutura do Repositorio
+## 📅 Cronograma - Semana 1 (02/02 a 14/02)
+
+| Data | Dia | Aula | Tópico | Status |
+|------|-----|------|--------|--------|
+| 02/02 | Seg | 06 | Tipos Primitivos | ✅ Programado |
+| 03/02 | Ter | 07 | Operadores Aritméticos | 📝 Em Detalhamento |
+| 04/02 | Qua | 08 | Módulos | 📝 Em Detalhamento |
+| 05/02 | Qui | 09 | Texto (Strings) | 📝 Em Detalhamento |
+| 06/02 | Sex | 10 | Condições (If/Elif/Else) | 📝 Em Detalhamento |
+| 07/02 | Sáb | 11 | Operadores Lógicos | 📝 Em Detalhamento |
+| 14/02 | Sáb | 12-18 | Módulos avançados | 🔄 Planejamento |
+
+**Observação:** O cronograma detalhado com objetivos, conceitos-chave e entregáveis está disponível no [Trello do projeto](https://trello.com/b/OnVhgoTJ/laboradev-python-mundo-1).
+
+---
+
+## 📁 Estrutura do Repositório
 
 ```
 financas-dev-python-mundo1/
+├── 📂 docs/                       # Documentação do projeto
+│   ├── 📂 anotacoes_diarias/     # Notas de estudo de cada dia
+│   ├── 📂 sprints/               # Planejamento e retrospectivas
+│   └── BOAS_PRATICAS.md          # Guia de boas práticas (modelo)
 │
-├── 📂 docs/                          # Documentacao do projeto
-│   ├── 📂 anotacoes_diarias/        # Notas de estudo de cada dia
-│   └── 📂 sprints/                  # Planejamento e retrospectivas
+├── 📂 src/                        # Código-fonte das aulas
+│   ├── 📂 aula06/                # Tipos Primitivos e Saída de Dados
+│   ├── 📂 aula07/                # Operadores Aritméticos
+│   ├── 📂 aula08/                # Módulos
+│   ├── 📂 aula09/                # Texto (Strings)
+│   ├── 📂 aula10/                # Condições (If/Elif/Else)
+│   ├── 📂 aula11/                # Operadores Lógicos
+│   └── ... (aulas 12-18)
 │
-├── 📂 src/                           # Codigo-fonte das aulas
-│   ├── 📂 aula06/                   # Tipos Primitivos e Saida de Dados
-│   ├── 📂 aula07/                   # Entrada de Dados e Variaveis
-│   ├── 📂 aula08/                   # Operadores Aritmeticos e Logicos
-│   ├── 📂 aula09/                   # Estruturas Condicionais (if/else)
-│   └── 📂 aula10/                   # Estruturas de Repeticao (for/while)
+├── 📂 desafios/                   # Exercícios práticos
+│   ├── 📂 diarios/               # Desafios do dia
+│   └── 📂 semanais/              # Desafios da semana
 │
-├── 📂 desafios/                      # Exercicios praticos
-│   ├── 📂 diarios/                  # Desafios do dia
-│   └── 📂 semanais/                 # Desafios da semana
+├── 📂 projeto_financas/           # Projeto final integrado
+│   ├── 📂 versao_dia01/          # Primeira versão (básico)
+│   └── 📂 versao_dia02/          # Versões posteriores (melhorias)
 │
-├── 📂 projeto_financas/              # Projeto final integrado
-│   ├── 📂 versao_dia01/             # Primeira versao
-│   └── 📂 versao_dia02/             # Versoes posteriores
-│
-├── README.md                         # Este arquivo
-└── .gitignore                        # Arquivos a ignorar
-
+├── README.md                      # Este arquivo
+└── .gitignore                     # Arquivos a ignorar
 ```
 
 ---
 
-## 📖 Conteudo das Aulas
+## 📖 Detalhes das Aulas
 
-### 🎯 Aula 06: Tipos Primitivos e Saida de Dados
+### 🎯 Dia 03/02 - Aula 07: Operadores Aritméticos
 
-**Tópicos:**
-- Tipos de dados em Python (int, float, str, bool)
-- Função print() e formatação
-- Conversão entre tipos
-- Operador type()
+**Conceitos:**
+- Operadores: `+`, `-`, `*`, `/`, `//`, `%`, `**`
+- Ordem de operações (precedência)
+- Cálculos com inteiros e floats
 
-**Desafios:**
-- [ ] Ex01: Imprimir dados pessoais
-- [ ] Ex02: Operacoes com numeros
-- [ ] Ex03: Conversão de tipos
+**Desafio:** Criar script com exemplos de cada operador
 
 ---
 
-### 🎯 Aula 07: Entrada de Dados e Variaveis
+### 🎯 Dia 04/02 - Aula 08: Módulos
 
-**Tópicos:**
-- Função input() para entrada
-- Variaveis e nomenclatura
-- Escopo de variaveis
-- Atribuição múltipla
+**Conceitos:**
+- O que são módulos em Python
+- Importar módulos built-in (math, random, datetime)
+- Formas de import: `import`, `from...import`
 
-**Desafios:**
-- [ ] Ex01: Calculo de IMC
-- [ ] Ex02: Conversão de moedas
-- [ ] Ex03: Calculos geometricos
+**Desafio:** Script com 3 módulos diferentes
 
 ---
 
-### 🎯 Aula 08: Operadores
+### 🎯 Dia 05/02 - Aula 09: Texto (Strings)
 
-**Tópicos:**
-- Operadores aritmeticos (+, -, *, /, //, %, **)
-- Operadores de comparacao (==, !=, <, >, <=, >=)
-- Operadores logicos (and, or, not)
-- Precedencia de operadores
+**Conceitos:**
+- Strings como sequências de caracteres
+- Indexação e slicing
+- Métodos: `.upper()`, `.lower()`, `.replace()`, `.split()`, `.join()`
+- F-strings para formatação
 
-**Desafios:**
-- [ ] Ex01: Calculos complexos
-- [ ] Ex02: Comparacoes e logica
-- [ ] Ex03: Precedencia de operadores
+**Desafio:** Script com manipulação de strings
 
 ---
 
-### 🎯 Aula 09: Estruturas Condicionais
+### 🎯 Dia 06/02 - Aula 10: Condições (If/Elif/Else)
 
-**Tópicos:**
-- if, elif, else
-- Aninhamento de condicionais
-- Operador ternario
+**Conceitos:**
+- Estruturas condicionais: `if`, `elif`, `else`
+- Operadores de comparação: `==`, `!=`, `<`, `>`, `<=`, `>=`
+- Operadores lógicos: `and`, `or`, `not`
+- Indentação
+
+**Desafio:** Programa com múltiplas condições
+
+---
+
+### 🎯 Dia 07/02 - Aula 11: Operadores Lógicos
+
+**Conceitos:**
+- `and`: ambas as condições verdadeiras
+- `or`: pelo menos uma condição verdadeira
+- `not`: inverte valor booleano
+- Tabelas-verdade
+- Precedência: `not` > `and` > `or`
+
+**Desafio:** Demonstrar todos operadores lógicos
+
+---
+
+## 📚 Boas Práticas de Desenvolvimento
+
+Ver arquivo [BOAS_PRATICAS.md](./docs/BOAS_PRATICAS.md) para o guia completo.
+
+### Resumo Rápido:
+
+1. **Nomes de variáveis**: Use `snake_case`
+   ```python
+   nome_usuario = "Ametélia"
+   idade = 25
+   ```
+
+2. **Comentários**: Explique o "por quê", não o "o quê"
+   ```python
+   # Calcula o desconto de 10% por ser cliente antigo
+   desconto = preco * 0.10
+   ```
+
+3. **Funções**: Uma responsabilidade por função
+   ```python
+   def calcular_total(quantidade, preco):
+       """Calcula total de uma compra."""
+       return quantidade * preco
+   ```
+
+4. **Documentação**: Use docstrings
+   ```python
+   def soma(a, b):
+       """Soma dois números e retorna o resultado.
+       
+       Args:
+           a: Primeiro número
+           b: Segundo número
+           
+       Returns:
+           int: A soma de a e b
+       """
+       return a + b
+   ```
+
+---
+
+## 📋 Projeto Final: Sistema de Finanças
+
+### Objetivos:
+- Gerenciar receitas e despesas
+- Calcular saldos
+- Gerar relatórios
+
+### Versões:
+
+**Versão 1 (Básica - até Aula 10):**
+- Entrada de dados
+- Tipos primitivos
+- Operações básicas
+
+**Versão 2 (Melhorada - após Aula 18):**
+- Estruturas de dados
+- Funções
 - Tratamento de erros
 
-**Desafios:**
-- [ ] Ex01: Validacao de dados
-- [ ] Ex02: Jogo de numeros
-- [ ] Ex03: Classificacao de notas
+---
+
+## 🔗 Links ÚTeis
+
+- [Trello do Projeto](https://trello.com/b/OnVhgoTJ/laboradev-python-mundo-1)
+- [Plataforma LaboraDev](https://laboradev.com)
+- [Documentação Python](https://docs.python.org/pt-br/)
 
 ---
 
-### 🎯 Aula 10: Estruturas de Repeticao
+## 📝 Contribuindo
 
-**Tópicos:**
-- Loop for
-- Loop while
-- break e continue
-- Ranges e iteracoes
-
-**Desafios:**
-- [ ] Ex01: Tabuada
-- [ ] Ex02: Sequencias (Fibonacci)
-- [ ] Ex03: Validacao com loop
+1. Crie uma branch para sua aula: `git checkout -b aula-07`
+2. Faça commit das mudanças: `git commit -m "Aula 07 - Operadores"`
+3. Push para a branch: `git push origin aula-07`
+4. Abra um Pull Request
 
 ---
 
-## 🎯 Desafios
+## 📄 Licença
 
-### Desafios Diarios
+Este projeto é parte do programa de formação LaboraDev.
 
-Localizados em `desafios/diarios/`, com um desafio para cada dia de aula.
-
-**Estrutura:**
-```
-desafios/diarios/
-├── desafio_dia01.md    # 02/02
-├── desafio_dia02.md    # 03/02
-├── desafio_dia03.md    # 04/02
-├── desafio_dia04.md    # 05/02
-└── desafio_dia05.md    # 06/02
-```
-
-### Desafios Semanais
-
-Localizados em `desafios/semanais/`, com desafios integradores.
-
----
-
-## 🛠️ Como Usar Este Repositorio
-
-### 1. Clonar o Repositorio
-
-```bash
-git clone https://github.com/LaboraDev/financas-dev-python-mundo1.git
-cd financas-dev-python-mundo1
-```
-
-### 2. Estrutura de Trabalho
-
-Cada aula tem sua pasta em `src/`. Dentro de cada pasta:
-- `exercicios.py` - Exercicios de classe
-- `desafios.py` - Exercicios prativos
-- `notas.md` - Anotacoes importantes
-
-### 3. Executar os Arquivos
-
-```bash
-# Executar um arquivo Python
-python src/aula06/exercicios.py
-
-# Ou use python3 em Linux/Mac
-python3 src/aula06/exercicios.py
-```
-
-### 4. Padrão de Commits
-
-Ao fazer alteracoes, use este padrão:
-
-```bash
-git add .
-git commit -m "[TIPO] Descricao clara e objetiva"
-git push origin main
-```
-
-**Tipos de commit:**
-- `[AULA]` - Exercicios e conteudo da aula
-- `[DESAFIO]` - Desafio diario ou semanal
-- `[PROJETO]` - Atualizacao do projeto Financas
-- `[DOCS]` - Documentacao e anotacoes
-- `[FIX]` - Correcao de bugs
-- `[REFACTOR]` - Melhoria de codigo existente
-
-**Exemplos:**
-```
-[AULA] Exercicios da aula 06 - tipos primitivos
-[DESAFIO] Implementacao do calculo de IMC
-[PROJETO] Adiciona funcionalidade de login
-[DOCS] Anotacoes sobre operadores aritmeticos
-```
-
----
-
-## 📅 Cronograma - Semana 01
-
-| Dia | Data | Aula | Conteudo |
-|-----|------|------|----------|
-| 🔵 | 02/02 | 06 | Tipos Primitivos e print() |
-| 🔵 | 03/02 | 07 | Entrada de dados (input) |
-| 🔵 | 04/02 | 08 | Operadores |
-| 🔵 | 05/02 | 09 | Estruturas Condicionais |
-| 🔵 | 06/02 | 10 | Loops e Repeticao |
-
-**Carga Horaria:** 2h/dia (10h total)
-
----
-
-## 💡 Boas Praticas
-
-### Codigo
-- ✅ Nomes descritivos para variaveis
-- ✅ Comentarios em Python (# antes de linhas)
-- ✅ Maximo 80 caracteres por linha
-- ✅ Espacos em branco significativos em Python
-- ✅ Testar sempre antes de commitar
-
-### Git
-- ✅ Commits pequenos e frequentes
-- ✅ Um commit por feature/exercicio
-- ✅ Sempre fazer pull antes de começar
-- ✅ Sempre fazer push ao finalizar
-- ✅ Mensagens claras e descritivas
-
----
-
-## 🚀 Projeto Final: Sistema de Financas
-
-Localizados em `projeto_financas/`, com versoes iterativas:
-
-- **versao_dia01/** - Primeira versao (basico)
-- **versao_dia02/** - Versao expandida (melhorias)
-
-**Objetivos:**
-- [ ] Entrada de dados de gastos
-- [ ] Categorias de despesas
-- [ ] Relatorio mensal
-- [ ] Graficos simples
-- [ ] Persistencia de dados
-
----
-
-## 📚 Recursos e Referencias
-
-### Documentacao Oficial
-- [Python.org](https://www.python.org/)
-- [Python Docs](https://docs.python.org/3/)
-- [W3Schools Python](https://www.w3schools.com/python/)
-
-### Ferramentas Recomendadas
-- **Editor:** VS Code, PyCharm Community, Thonny
-- **Versionamento:** Git e GitHub
-- **Ambiente:** Python 3.8+
-
-### Bibliotecas Basicas
-```python
-import math        # Operacoes matematicas
-import random      # Numeros aleatorios
-import datetime    # Data e hora
-```
-
----
-
-## 🤝 Como Contribuir
-
-1. Faça um Fork do repositorio
-2. Crie uma branch para sua feature (`git checkout -b feature/minhafuncionalidade`)
-3. Commit suas mudancas (`git commit -m '[TIPO] Descricao'`)
-4. Push para a branch (`git push origin feature/minhafuncionalidade`)
-5. Abra um Pull Request
-
----
-
-## 📝 Licenca
-
-Este projeto é de educacao. Sinta-se livre para usar e modificar!
-
----
-
-## 👥 Equipe LaboraDev
-
-**Projeto Colaborativo do Time LaboraDev**
-
-- 🎓 Mentoria e Orientacao
-- 💻 Codificacao Colaborativa
-- 🚀 Desenvolvimento de Habilidades
-
----
-
-## 📞 Suporte
-
-Dúvidas ou sugestões? Abra uma issue no repositorio!
-
----
-
-**Bom aprendizado! 🎉 Vamos crescer juntos!**
+**Atualizado em:** 02 de Fevereiro de 2026
