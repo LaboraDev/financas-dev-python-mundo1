@@ -1,4 +1,5 @@
-# 🎓 Exercicios e Desafios - Python Mundo 1
+# 🎓 Exercicios - Python Mundo 1    
+
 ## Curso de Gustavo Guanabara (Curso em Video)
 
 **Semana 01: 02/02 a 06/02/2025**
@@ -27,9 +28,6 @@
 
 **Ex09:** Escreva um programa que leia um valor em Reais ($) e mostre quantos dolares ele contem. A taxa de cambio esta em 1 dollar = 5.50 reais
 
-### Desafio:
-**Desafio 01:** Faca um programa que utilize print() com parenteses e parametros para exibir dados de forma formatada
-
 ---
 
 ## AULA 07: Entrada de Dados e Variaveis
@@ -51,9 +49,6 @@
 **Ex16:** Escreva um programa que leia a velocidade de um carro em Km/h e mostre em m/s (metros por segundo)
 
 **Ex17:** Escreva um programa que leia quanto dinheiro uma pessoa tem na carteira ($) e mostre quantos dolares ela consegue comprar. Considere US$ 1.00 = R$ 5.50
-
-### Desafio:
-**Desafio 02:** Faca um programa que calcule a area de um circulo a partir do raio informado pelo usuario
 
 ---
 
@@ -82,9 +77,6 @@
 - em ate 2x no cartao: preco formal
 - em 3x ou mais no cartao: 20% de juros
 
-### Desafio:
-**Desafio 03:** Faca um algoritmo que leia o valor de uma compra e mostre as opcoes de pagamento, atualizando o preco final de acordo com a escolha
-
 ---
 
 ## AULA 09: Estruturas Condicionais (if/elif/else)
@@ -106,9 +98,6 @@
 **Ex31:** Faca um programa que leia tres numeros e mostre o maior e o menor
 
 **Ex32:** Escreva um programa que verifique se um numero eh par ou impar
-
-### Desafio:
-**Desafio 04:** Faca um jogo onde o computador pensa em um numero de 0 a 10 e o usuario tem que adivinhar
 
 ---
 
@@ -134,9 +123,6 @@
 
 **Ex41:** Faca um programa que leia 5 numeros e no final mostre a soma, a media, o maior e o menor deles
 
-### Desafio:
-**Desafio 05:** Crie um programa que leia numeros do teclado, mostrando a soma, a media e o maior de todos. O programa termina quando o usuario digitar 999
-
 ---
 
 ## 🎯 Boas Praticas ao Resolver os Exercicios
@@ -157,9 +143,10 @@
 **Plataforma:** Curso em Video (www.cursoemvideo.com)
 **Duracao:** 40 horas
 **Nivel:** Basico
+**Material Oficial:** https://www.cursoemvideo.com/curso/python-3/
 
 ---
 
-**Ultima atualizacao:** 02/02/2025
-**Status:** Em desenvolvimento
-**Proximo:** Aula 11 em breve!
+**Ultima atualizacao:** 02/02/2025 |
+**Total de Exercicios:** 41 |
+**Status:** Completo e verificado 
