@@ -1,220 +1,202 @@
 # 🚀 LaboraDev - Python Mundo 1
 
-**Repositório colaborativo do projeto LaboraDev - Aulas, Desafios e Projeto Final de Finanças**
+## 📖 Repositório de Aprendizado do Curso Python Mundo 1 (Gustavo Guanabara)
+
+**Repositório colaborativo do projeto LaboraDev - Material de aprendizado, aulas práticas, desafios e projeto final de Sistema de Finanças baseado no curso Python Mundo 1 de Gustavo Guanabara**
 
 ---
 
-## 👥 Equipe
+## ℹ️ Informações Importantes
 
+### 📚 Curso
+- **Nome do Curso**: [Python Mundo 1 - Gustavo Guanabara](https://www.cursoemvideo.com/course/python-3-mundo-1/)
+- **Instrutor**: Gustavo Guanabara (Curso em Vídeo)
+- **Conceitos Aprendidos**: Tipos primitivos, operadores, módulos, strings, condições, loops, funções, listas, tuplas, dicionários e tratamento de exceções
 
-- **Amélia** - Coordenação do projeto
+### 🛠️ Projeto Final
+- **Desenvolvido por**: LaboraDev
+- **Projeto**: Sistema de Gestão Financeira para Freelancers (Python Mundo 1)
+- **Descrição**: Aplicação prática que consolida todos os conceitos aprendidos no Mundo 1
+
+---
+
+## 👥 Equipe LaboraDev
+
+- **Amélia** - Coordenação do projeto e organização
 - **Ana** - Desenvolvimento e testes
 - **Isaura** - Documentação e boas práticas
 
 ---
 
-## 📚 Sobre o Projeto
+## 📚 Sobre o Repositório
 
-Este repositório contém todo o material do curso **Python Mundo 1** da plataforma LaboraDev, incluindo:
+Este repositório contém todo o material prático do curso **Python Mundo 1** de Gustavo Guanabara, desenvolvido e consolidado pela equipe LaboraDev:
 
-- ✅ Aulas práticas (Aula 06 a 18)
-- ✅ Desafios diários e semanais
-- ✅ Projeto final: Sistema de Finanças
-- ✅ Documentação e referências
+- ✅ **Aulas Práticas** (Aula 06 a 18) - Material complementar e exemplos
+- ✅ **Desafios Diários e Semanais** - Exercícios práticos incrementais
+- ✅ **Projeto Final: Sistema de Finanças** - Aplicação funcional em Python
+- ✅ **Documentação Completa** - Guias, boas práticas e referências
+- ✅ **Cronograma Detalhado** - Planejamento semanal de desenvolvimento
+
+---
+
+## 🎯 Objetivo do Projeto Final
+
+Desenvolver uma **aplicação de gestão financeira para freelancers** usando Python, aplicando todos os conceitos aprendidos no **Mundo 1 do curso de Gustavo Guanabara**.
+
+### Funcionalidades Principais
+1. **Cadastro de Jobs/Projetos** - Registrar trabalhos com valores e tipos de pagamento
+2. **Cálculos Automáticos** - Impostos, taxas de plataforma e valor líquido
+3. **Relatórios** - Resumos financeiros e estatísticas
 
 ---
 
 ## 📅 Cronograma - Semana 1 (02/02 a 14/02)
 
-| Data | Dia | Aula | Tópico | Status |
-|------|-----|------|--------|--------|
-| 02/02 | Seg | 06 | Tipos Primitivos | ✅ Programado |
-| 03/02 | Ter | 07 | Operadores Aritméticos | 📝 Em Detalhamento |
-| 04/02 | Qua | 08 | Módulos | 📝 Em Detalhamento |
-| 05/02 | Qui | 09 | Texto (Strings) | 📝 Em Detalhamento |
-| 06/02 | Sex | 10 | Condições (If/Elif/Else) | 📝 Em Detalhamento |
-| 07/02 | Sáb | 11 | Operadores Lógicos | 📝 Em Detalhamento |
-| 14/02 | Sáb | 12-18 | Módulos avançados | 🔄 Planejamento |
+| Data  | Dia | Aula | Tópico                      | Status           |
+|-------|-----|------|-----------------------------|-----------------|
+| 02/02 | Seg | 06   | Tipos Primitivos            | ✅ Programado    |
+| 03/02 | Ter | 07   | Operadores Aritméticos      | 📝 Em Detalhamento |
+| 04/02 | Qua | 08   | Módulos                     | 📝 Em Detalhamento |
+| 05/02 | Qui | 09   | Texto (Strings)             | 📝 Em Detalhamento |
+| 06/02 | Sex | 10   | Condições (If/Elif/Else)    | 📝 Em Detalhamento |
+| 07/02 | Sáb | 11   | Operadores Lógicos          | 📝 Em Detalhamento |
+| 14/02 | Sáb | 12-18| Módulos Avançados           | 🔄 Planejamento |
 
-**Observação:** O cronograma detalhado com objetivos, conceitos-chave e entregáveis está disponível no [Trello do projeto](https://trello.com/b/OnVhgoTJ/laboradev-python-mundo-1).
+**Nota**: O cronograma detalhado com objetivos específicos, conceitos-chave e entregáveis está disponível no [Trello do projeto](https://trello.com/b/OnVhgoTJ/laboradev-python-mundo-1).
 
 ---
 
-## 📁 Estrutura do Repositório
+## 📂 Estrutura do Repositório
 
 ```
 financas-dev-python-mundo1/
-├── 📂 docs/                       # Documentação do projeto
-│   ├── 📂 anotacoes_diarias/     # Notas de estudo de cada dia
-│   ├── 📂 sprints/               # Planejamento e retrospectivas
-│   └── BOAS_PRATICAS.md          # Guia de boas práticas (modelo)
-│
-├── 📂 src/                        # Código-fonte das aulas
-│   ├── 📂 aula06/                # Tipos Primitivos e Saída de Dados
-│   ├── 📂 aula07/                # Operadores Aritméticos
-│   ├── 📂 aula08/                # Módulos
-│   ├── 📂 aula09/                # Texto (Strings)
-│   ├── 📂 aula10/                # Condições (If/Elif/Else)
-│   ├── 📂 aula11/                # Operadores Lógicos
-│   └── ... (aulas 12-18)
-│
-├── 📂 desafios/                   # Exercícios práticos
-│   ├── 📂 diarios/               # Desafios do dia
-│   └── 📂 semanais/              # Desafios da semana
-│
-├── 📂 projeto_financas/           # Projeto final integrado
-│   ├── 📂 versao_dia01/          # Primeira versão (básico)
-│   └── 📂 versao_dia02/          # Versões posteriores (melhorias)
-│
+├── src/                           # Código-fonte principal
+│   ├── aula06/                    # Material e exercícios da Aula 06
+│   ├── aula07/                    # Material e exercícios da Aula 07
+│   ├── aula08/                    # Material e exercícios da Aula 08
+│   └── aula09/ até aula10/        # Material das demais aulas
+├── desafios/                      # Desafios diários e semanais
+│   ├── dia01/
+│   ├── dia02/
+│   └── ...
+├── docs/                          # Documentação completa
+│   ├── BOAS_PRATICAS.md          # Guia de boas práticas
+│   ├── GUIA_DOCUMENTACAO_CODIGO.md # Padrões de documentação
+│   ├── PROJETO_FINANCAS.md       # Especificação completa do projeto
+│   ├── anotacoes_diarias/        # Notas de aprendizado diário
+│   └── sprints/                  # Planejamento de sprints
+├── projeto_financas/              # Código do projeto final
+│   ├── versao_dia01/             # Versão inicial
+│   ├── versao_dia02/             # Versão com melhorias
+│   └── ...
 ├── README.md                      # Este arquivo
-└── .gitignore                     # Arquivos a ignorar
+└── .gitignore
 ```
 
 ---
 
-## 📖 Detalhes das Aulas
+## 📋 Documentação
 
-### 🎯 Dia 03/02 - Aula 07: Operadores Aritméticos
+### Documentos Principais
+1. **[PROJETO_FINANCAS.md](docs/PROJETO_FINANCAS.md)** - Especificação completa do projeto final
+2. **[BOAS_PRATICAS.md](docs/BOAS_PRATICAS.md)** - Padrões e boas práticas de desenvolvimento
+3. **[GUIA_DOCUMENTACAO_CODIGO.md](docs/GUIA_DOCUMENTACAO_CODIGO.md)** - Como documentar código
 
-**Conceitos:**
-- Operadores: `+`, `-`, `*`, `/`, `//`, `%`, `**`
-- Ordem de operações (precedência)
-- Cálculos com inteiros e floats
-
-**Desafio:** Criar script com exemplos de cada operador
-
----
-
-### 🎯 Dia 04/02 - Aula 08: Módulos
-
-**Conceitos:**
-- O que são módulos em Python
-- Importar módulos built-in (math, random, datetime)
-- Formas de import: `import`, `from...import`
-
-**Desafio:** Script com 3 módulos diferentes
+### Estrutura de Commits
+Mantenha os seguintes padrões de commits:
+- `[INIT]` - Inicialização de novas funcionalidades
+- `[FEAT]` - Adição de novas features
+- `[DOCS]` - Atualizações de documentação
+- `[FIX]` - Correções de bugs
+- `[REFACTOR]` - Refatoração de código
 
 ---
 
-### 🎯 Dia 05/02 - Aula 09: Texto (Strings)
+## 🚀 Como Começar
 
-**Conceitos:**
-- Strings como sequências de caracteres
-- Indexação e slicing
-- Métodos: `.upper()`, `.lower()`, `.replace()`, `.split()`, `.join()`
-- F-strings para formatação
+### Pré-requisitos
+- Python 3.8+
+- Git
 
-**Desafio:** Script com manipulação de strings
+### Clone o Repositório
+```bash
+git clone https://github.com/LaboraDev/financas-dev-python-mundo1.git
+cd financas-dev-python-mundo1
+```
 
----
-
-### 🎯 Dia 06/02 - Aula 10: Condições (If/Elif/Else)
-
-**Conceitos:**
-- Estruturas condicionais: `if`, `elif`, `else`
-- Operadores de comparação: `==`, `!=`, `<`, `>`, `<=`, `>=`
-- Operadores lógicos: `and`, `or`, `not`
-- Indentação
-
-**Desafio:** Programa com múltiplas condições
+### Execute o Projeto Final
+```bash
+cd projeto_financas
+python main.py
+```
 
 ---
 
-### 🎯 Dia 07/02 - Aula 11: Operadores Lógicos
+## 📖 Conteúdo do Curso
 
-**Conceitos:**
-- `and`: ambas as condições verdadeiras
-- `or`: pelo menos uma condição verdadeira
-- `not`: inverte valor booleano
-- Tabelas-verdade
-- Precedência: `not` > `and` > `or`
+### Conceitos Aprendidos
 
-**Desafio:** Demonstrar todos operadores lógicos
-
----
-
-## 📚 Boas Práticas de Desenvolvimento
-
-Ver arquivo [BOAS_PRATICAS.md](./docs/BOAS_PRATICAS.md) para o guia completo.
-
-### Resumo Rápido:
-
-1. **Nomes de variáveis**: Use `snake_case`
-   ```python
-   nome_usuario = "Ametélia"
-   idade = 25
-   ```
-
-2. **Comentários**: Explique o "por quê", não o "o quê"
-   ```python
-   # Calcula o desconto de 10% por ser cliente antigo
-   desconto = preco * 0.10
-   ```
-
-3. **Funções**: Uma responsabilidade por função
-   ```python
-   def calcular_total(quantidade, preco):
-       """Calcula total de uma compra."""
-       return quantidade * preco
-   ```
-
-4. **Documentação**: Use docstrings
-   ```python
-   def soma(a, b):
-       """Soma dois números e retorna o resultado.
-       
-       Args:
-           a: Primeiro número
-           b: Segundo número
-           
-       Returns:
-           int: A soma de a e b
-       """
-       return a + b
-   ```
+✅ **Tipos Primitivos** (int, float, str, bool)  
+✅ **Operadores Aritméticos** (soma, subtração, multiplicação, divisão, potência, módulo)  
+✅ **Módulos** (import, datetime, math)  
+✅ **Strings** (concatenação, interpolação, formatação)  
+✅ **Condições** (if, elif, else)  
+✅ **Operadores Lógicos** (and, or, not)  
+✅ **Estruturas Condicionais** (aninhadas, complexas)  
+✅ **Laços de Repetição** (for, while, break, continue)  
+✅ **Funções** (definição, parâmetros, retorno, escopo)  
+✅ **Listas** (criação, acesso, iteração, métodos)  
+✅ **Tuplas** (características, uso, vantagens)  
+✅ **Dicionários** (chave-valor, métodos, iteração)  
+✅ **Tratamento de Exceções** (try, except, finally)  
 
 ---
 
-## 📋 Projeto Final: Sistema de Finanças
+## 📊 Status do Projeto
 
-### Objetivos:
-- Gerenciar receitas e despesas
-- Calcular saldos
-- Gerar relatórios
-
-### Versões:
-
-**Versão 1 (Básica - até Aula 10):**
-- Entrada de dados
-- Tipos primitivos
-- Operações básicas
-
-**Versão 2 (Melhorada - após Aula 18):**
-- Estruturas de dados
-- Funções
-- Tratamento de erros
+- **Fase**: Desenvolvimento em andamento
+- **Versão**: 1.0
+- **Última Atualização**: Fevereiro de 2026
+- **Próximas Etapas**: Integração completa de todas as funcionalidades e preparação para apresentação
 
 ---
 
-## 🔗 Links ÚTeis
+## 🔗 Links Importantes
 
-- [Trello do Projeto](https://trello.com/b/OnVhgoTJ/laboradev-python-mundo-1)
-- [Plataforma LaboraDev](https://laboradev.com)
-- [Documentação Python](https://docs.python.org/pt-br/)
+- 📚 [Curso Python Mundo 1 - Gustavo Guanabara](https://www.cursoemvideo.com/course/python-3-mundo-1/)
+- 📖 [Documentação Python Oficial](https://docs.python.org/3/)
+- 🎯 [Trello do Projeto](https://trello.com/b/OnVhgoTJ/laboradev-python-mundo-1)
+- 💻 [LaboraDev GitHub](https://github.com/LaboraDev)
 
 ---
 
-## 📝 Contribuindo
+## 📝 Notas
 
-1. Crie uma branch para sua aula: `git checkout -b aula-07`
-2. Faça commit das mudanças: `git commit -m "Aula 07 - Operadores"`
-3. Push para a branch: `git push origin aula-07`
+- Este repositório é baseado no curso **Python Mundo 1 de Gustavo Guanabara**
+- O projeto final foi desenvolvido pela equipe **LaboraDev** como consolidação do aprendizado
+- Recomenda-se seguir as **Boas Práticas** documentadas neste repositório
+- Mantenha o código limpo, bem comentado e bem documentado
+- Faça commits frequentes com mensagens descritivas
+
+---
+
+## 👥 Contribuindo
+
+Para contribuir com este repositório:
+
+1. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+2. Commit suas mudanças (`git commit -m '[FEAT] Add some AmazingFeature'`)
+3. Push para a branch (`git push origin feature/AmazingFeature`)
 4. Abra um Pull Request
 
 ---
 
 ## 📄 Licença
 
-Este projeto é parte do programa de formação LaboraDev.
+Este repositório é parte do projeto educacional LaboraDev baseado no curso de Gustavo Guanabara.
 
-**Atualizado em:** 02 de Fevereiro de 2026
+---
+
+**Desenvolvido com ❤️ pela equipe LaboraDev**  
+**Baseado no curso Python Mundo 1 de Gustavo Guanabara**
