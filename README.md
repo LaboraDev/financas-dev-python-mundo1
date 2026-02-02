@@ -6,6 +6,7 @@
 
 ## 👥 Equipe
 
+
 - **Amélia** - Coordenação do projeto
 - **Ana** - Desenvolvimento e testes
 - **Isaura** - Documentação e boas práticas
