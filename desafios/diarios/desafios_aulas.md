@@ -1,197 +1,165 @@
-# 💯 Desafios das Aulas - Python Mundo 1
+# 🎓 Exercicios e Desafios - Python Mundo 1
+## Curso de Gustavo Guanabara (Curso em Video)
 
 **Semana 01: 02/02 a 06/02/2025**
 
 ---
 
-## 📂 AULA 07: Entrada de Dados e Variaveis
+## AULA 06: Tipos Primitivos e Saida de Dados
 
-### Desafio 01: Cálculo de IMC
+### Exercicios de Classe:
 
-**Objetivo:** Usar input() para receber dados e calcular o IMC
+**Ex01:** Escreva um programa que mostre "Ola, Mundo!"
 
-```
-Solicité ao usuário:
-- Nome
-- Peso (em kg)
-- Altura (em metros)
+**Ex02:** Escreva um programa que escreva seu nome e mostre quantas letras o nome contem
 
-Ceálculo IMC = peso / (altura * altura)
+**Ex03:** Escreva um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas em funcao do tamanho do nome dele
 
-Saída esperada:
-Olá, [Nome]! Seu IMC é: [valor com 2 casas decimais]
-```
+**Ex04:** Escreva um programa que leia as dimensoes de um retangulo (largura e altura), calcule e mostre sua area
 
-### Desafio 02: Conversão de Moedas
+**Ex05:** Escreva um programa que leia um numero inteiro e mostre na tela o seu sucessor e seu antecessor
 
-**Objetivo:** Entrada de dados e variáveis
+**Ex06:** Faca um programa que leia um numero e mostre seu dobro, triplo e raiz quadrada
 
-```
-Solicité um valor em reais
-Converta para dólares (1 USD = 5.50 BRL)
-Exiba o resultado formatado
-```
+**Ex07:** Escreva um programa que leia as notas de um aluno, calcule e mostre sua media
 
-### Desafio 03: Cálculos Geométricos
+**Ex08:** Escreva um programa que leia um valor em metros e o exiba convertido em outras unidades
 
-**Objetivo:** Praticar cálculos com variáveis
+**Ex09:** Escreva um programa que leia um valor em Reais ($) e mostre quantos dolares ele contem. A taxa de cambio esta em 1 dollar = 5.50 reais
 
-```
-Solicité o raio de um círculo
-Calcule:
-- Área = pi * raio^2
-- Perímetro = 2 * pi * raio
-
-Exiba ambos com 2 casas decimais
-```
+### Desafio:
+**Desafio 01:** Faca um programa que utilize print() com parenteses e parametros para exibir dados de forma formatada
 
 ---
 
-## 📂 AULA 08: Operadores
+## AULA 07: Entrada de Dados e Variaveis
 
-### Desafio 01: Cálculos Complexos
+### Exercicios de Classe:
 
-**Objetivo:** Usar todos os operadores aritméticos
+**Ex10:** Escreva um programa que leia o nome de um aluno e mostre o valor dele como resposta
 
-```
-Dados dois números, calcule:
-- Soma, subtração, multiplicação, divisão
-- Divisão inteira (//)
-- Módulo (%)
-- Potência (**)
+**Ex11:** Crie um programa que leia o largura e a altura de uma parede em metros, calcule sua area e a quantidade de tinta necessaria para pinta-la, sabendo que cada litro de tinta pinta uma area de 2 metros quadrados
 
-Exiba todos os resultados de forma organizada
-```
+**Ex12:** Faca um algoritmo que leia a idade de uma pessoa e mostre sua idade em dias
 
-### Desafio 02: Comparações e Lógica
+**Ex13:** Escreva um programa que leia o preco de um produto, calcule e mostre o novo preco com 5% de desconto
 
-**Objetivo:** Operadores de comparação e lógicos
+**Ex14:** Escreva um programa que leia o salario de um funcionario e mostre seu novo salario, com 15% de aumento
 
-```
-Dados dois números a e b:
-- Verifique se a > b
-- Verifique se a != b
-- Verifique se a >= 10 AND b <= 20
-- Verifique se a > 100 OR b < 0
+**Ex15:** Escreva um programa que converta uma temperatura digitada em Celsius e converta para Fahrenheit: F = (9*C/5) + 32
 
-Exiba True ou False para cada comparação
-```
+**Ex16:** Escreva um programa que leia a velocidade de um carro em Km/h e mostre em m/s (metros por segundo)
 
-### Desafio 03: Precedência de Operadores
+**Ex17:** Escreva um programa que leia quanto dinheiro uma pessoa tem na carteira ($) e mostre quantos dolares ela consegue comprar. Considere US$ 1.00 = R$ 5.50
 
-**Objetivo:** Entender a ordem de execução
-
-```
-Calcule e explique o resultado:
-- 2 + 3 * 4
-- (2 + 3) * 4
-- 10 / 2 + 5
-- 10 / (2 + 5)
-- 2 ** 3 ** 2
-
-Exiba a diferença de resultados
-```
+### Desafio:
+**Desafio 02:** Faca um programa que calcule a area de um circulo a partir do raio informado pelo usuario
 
 ---
 
-## 📂 AULA 09: Estruturas Condicionais
+## AULA 08: Operadores
 
-### Desafio 01: Validação de Dados
+### Exercicios de Classe:
 
-**Objetivo:** Usar if/elif/else
+**Ex18:** Faca um programa que leia um angulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse angulo
 
-```
-Solicité a idade do usuário
-Exiba:
-- "Menor de idade" se < 18
-- "Maior de idade" se >= 18 e < 60
-- "Idoso" se >= 60
-```
+**Ex19:** Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faca um programa que ajude ele, lendo o nome dos quatro alunos e escrevendo o nome do escolhido
 
-### Desafio 02: Jogo de Números
+**Ex20:** O mesmo professor do desafio anterior quer sortear a ordem de apresentacao de trabalhos dos alunos. Faca um programa que leia o nome dos quatro alunos e mostre a ordem sorteada
 
-**Objetivo:** Usar condicionais aninhadas
+**Ex21:** Escreva um programa em Python que faca a leitura de tres numeros e mostre qual eh o maior
 
-```
-Defina um número secreto entre 1 e 10
-Solicité ao usuário um palpite
-Exiba:
-- "Acertou!" se for igual
-- "Muito alto!" se for maior
-- "Muito baixo!" se for menor
-```
+**Ex22:** Escreva um programa que leia tres notas de um aluno, calcule sua media e mostre:
+- Se a media for >= 7, mostre "Aprovado"
+- Se a media for >= 6 e < 7, mostre "Recuperacao"
+- Se a media for < 6, mostre "Reprovado"
 
-### Desafio 03: Classificação de Notas
+**Ex23:** Escreva um programa que leia um numero de 0 a 9999 e mostre quantas vezes o digito 4 aparece dentro dele
 
-**Objetivo:** Condicionais com ranges
+**Ex24:** Escreva um programa que calcule o preco a pagar por um produto, considerando seu preco normal e sua condicao de pagamento:
+- a vista no dinheiro ou cheque: 10% de desconto
+- a vista no cartao: 5% de desconto
+- em ate 2x no cartao: preco formal
+- em 3x ou mais no cartao: 20% de juros
 
-```
-Solicité uma nota (0-10)
-Exiba a classificação:
-- 9-10: A
-- 8-8.9: B
-- 7-7.9: C
-- 6-6.9: D
-- < 6: F
-```
+### Desafio:
+**Desafio 03:** Faca um algoritmo que leia o valor de uma compra e mostre as opcoes de pagamento, atualizando o preco final de acordo com a escolha
 
 ---
 
-## 📂 AULA 10: Estruturas de Repetição
+## AULA 09: Estruturas Condicionais (if/elif/else)
 
-### Desafio 01: Tabuada
+### Exercicios de Classe:
 
-**Objetivo:** Usar loop for
+**Ex25:** Escreva um programa que faca a leitura de um numero inteiro entre 1 e 7, e mostre o respectivo dia da semana
 
-```
-Solicité um número
-Exiba a tabuada dele (1-10):
-Exemplo para 5:
-5 x 1 = 5
-5 x 2 = 10
-...
-5 x 10 = 50
-```
+**Ex26:** Escreva um programa que leia um numero entre 1 e 12, e mostre o nome do mes correspondente
 
-### Desafio 02: Sequências (Fibonacci)
+**Ex27:** Escreva um programa que leia o mes (numero) e o ano, dizendo quantos dias tem esse mes
 
-**Objetivo:** Usar loop while
+**Ex28:** Escreva um programa que faca a leitura da velocidade de um carro. Se ultrapassar 80Km/h, mostre uma mensagem dizendo que ele foi multado. A multa sera de R$ 7.00 por cada Km acima do limite
 
-```
-Exiba a sequência de Fibonacci até 100:
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89
-```
+**Ex29:** Escreva um programa que leia um numero inteiro entre 1 e 9999, diga quantos digitos ele possui
 
-### Desafio 03: Validação com Loop
+**Ex30:** Faca um programa que leia tres numeros e mostre qual eh o maior
 
-**Objetivo:** Combinar loop com condicional
+**Ex31:** Faca um programa que leia tres numeros e mostre o maior e o menor
 
-```
-Solicité uma senha
-Repita enquanto não tiver 8 caracteres
-Quando válida, exiba: "Senha aceita!"
-```
+**Ex32:** Escreva um programa que verifique se um numero eh par ou impar
+
+### Desafio:
+**Desafio 04:** Faca um jogo onde o computador pensa em um numero de 0 a 10 e o usuario tem que adivinhar
 
 ---
 
-## 🎯 Semana 02 em Breve!
+## AULA 10: Estruturas de Repeticao (for/while)
 
-**Continuaremos com:**
-- Funções
-- Listas e Tuplas
-- Dicionários
-- Tratamento de Exceções
+### Exercicios de Classe:
+
+**Ex33:** Faca um programa que mostre na tela uma contagem de 0 a 10, de um em um. Depois uma contagem de 10 a 0, de dois em dois
+
+**Ex34:** Escreva um programa que mostre a tabuada de um numero lido pelo usuario (1 a 10)
+
+**Ex35:** Desenvolva um programa que leia o primeiro termo e a razao de uma progressao aritmetica. Mostre os 10 primeiros termos dessa progressao
+
+**Ex36:** Escreva um programa para calcular a soma entre todos os numeros que sao multiplos de tres e que SEJAM menores que 1000
+
+**Ex37:** Escreva um programa que leia dois numeros (base e expoente) e calcule a potencia (sem usar **)
+
+**Ex38:** Faca um programa que leia um numero qualquer e mostre a tabuada desse numero de 1 a 10
+
+**Ex39:** Faca um programa que leia um numero inteiro qualquer e mostre na tela uma contagem ate esse numero
+
+**Ex40:** Crie um programa que leia varios numeros pelo teclado e mostre no final a soma entre todos os valores e quantos numeros foram digitados. O programa vai parar quando o usuario digitar 999
+
+**Ex41:** Faca um programa que leia 5 numeros e no final mostre a soma, a media, o maior e o menor deles
+
+### Desafio:
+**Desafio 05:** Crie um programa que leia numeros do teclado, mostrando a soma, a media e o maior de todos. O programa termina quando o usuario digitar 999
 
 ---
 
-## 🚠 Dicas para Resolver os Desafios
+## 🎯 Boas Praticas ao Resolver os Exercicios
 
-1. **Leia o desafio com atenção**
-2. **Quebre o problema em partes menores**
-3. **Teste seu código com diferentes entradas**
-4. **Comente seu código**
-5. **Faça commits após cada desafio**
+1. **Leia o enunciado com MUITA atencao**
+2. **Faca testes com varios valores**
+3. **Verifique se o resultado esta correto**
+4. **Comente seu codigo explicando a logica**
+5. **Use nomes descritivos para variaveis**
+6. **Faca um commit no GitHub apos resolver cada exercicio**
+7. **Nao copie! Tente resolver por conta propria primeiro**
 
 ---
 
-**Bom trabalho! 🚀**
+## 📚 Referencia - Curso em Video
+
+**Instrutor:** Gustavo Guanabara
+**Plataforma:** Curso em Video (www.cursoemvideo.com)
+**Duracao:** 40 horas
+**Nivel:** Basico
+
+---
+
+**Ultima atualizacao:** 02/02/2025
+**Status:** Em desenvolvimento
+**Proximo:** Aula 11 em breve!
