@@ -65,9 +65,26 @@ Para manter o histórico limpo, usaremos o padrão **Conventional Commits**.
 - `docs(readme): atualizar cronograma da equipe`
 - `fix(aula06): corrigir erro de conversão de tipo`
 
+Descrição dos Commits obrigatória: incluir contexto da mudança
+
 ---
 
-## 📅 4. Alinhamento com Trello
+## ✅ 4. Padrão de Entrega
+Todo Daily deve ter:
+- Código com exemplos práticos e comentários
+- Arquivo de anotações
+- Commit com título e descrição.
+
+### ⚠️ Pontos Importantes
+- Manter sincronização GitHub ↔ Trello ↔ Anotações
+- Descrever sempre o que foi feito (commit messages claras)
+- Praticar todos os conceitos antes de passar para próxima aula
+- Documentar dúvidas para discussão em grupo
+- Fazer backup local diariamente
+  
+---
+
+## 📅 5. Alinhamento com Trello
 
 - **Cartão no Trello**: O link do arquivo de anotação diária deve ser anexado ao cartão correspondente da Daily.
 - **Checklist**: Marque o item "Documentação" no Trello apenas após o commit no GitHub.
@@ -75,5 +92,5 @@ Para manter o histórico limpo, usaremos o padrão **Conventional Commits**.
 
 ---
 
-**Atualizado em:** 02 de Fevereiro de 2026
+**Atualizado em:** 04 de Fevereiro de 2026 | Hora: 14:14
 **Equipe:** Amélia, Ana, Isaura
