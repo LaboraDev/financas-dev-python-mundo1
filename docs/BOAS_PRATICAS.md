@@ -326,6 +326,221 @@ if __name__ == "__main__":
 
 ---
 
+## 📋 9. Boas Práticas de Código
+
+### Uma Função = Uma Tarefa
+
+Cada função deve ter uma única responsabilidade (Single Responsibility Principle):
+
+```python
+# ❌ Ruim - Função faz várias coisas
+def processar_venda(cliente, produto, quantidade):
+    # Validar
+    if not cliente:
+        raise ValueError("Cliente inválido")
+    # Calcular
+    total = produto.preco * quantidade
+    # Salvar
+    salvar_banco_dados(cliente, produto, total)
+    # Enviar email
+    enviar_email(cliente)
+    return total
+
+# ✅ Bom - Funções bem separadas
+def calcular_total(preco_unitario: float, quantidade: int) -> float:
+    """Calcula o total da venda."""
+    return preco_unitario * quantidade
+
+def processar_venda(cliente, produto, quantidade):
+    """Orquestra todo o processo de venda."""
+    validar_cliente(cliente)
+    total = calcular_total(produto.preco, quantidade)
+    salvar_banco_dados(cliente, produto, total)
+    enviar_email(cliente)
+    return total
+```
+
+### Tamanho Máximo de Função
+
+- **Ideal**: 10-20 linhas
+- **Máximo**: 30 linhas
+- **Por quê**: Fácil de ler, entender e testar
+
+### Comprimento de Linha
+
+- **Máximo**: 80 caracteres por linha
+- **Objetivo**: Melhor legibilidade e compatibilidade
+
+### Comentários Explicam o POR QUÉ
+
+- **Bom comentário**: Explica a intengão, motivo ou decisão
+- **Ruim comentário**: Apenas descreve o código (redundante)
+
+```python
+# ✅ Bom
+# Usamos DRY (Don't Repeat Yourself) para evitar bugs de sincronização
+valores = [item for item in dados if item.valido]
+
+# ❌ Ruim - Apenas repete o código
+# Filtra itens válidos
+valores = [item for item in dados if item.valido]
+```
+
+### Type Hints
+
+Use type hints para melhorar clareza e permitir verificação de tipos:
+
+```python
+# ✅ Com type hints
+def calcular_idade(ano_nascimento: int) -> int:
+    """Calcula a idade com base no ano de nascimento."""
+    return 2026 - ano_nascimento
+
+# ❌ Sem type hints
+def calcular_idade(ano_nascimento):
+    return 2026 - ano_nascimento
+```
+
+### Evite Variáveis Globais
+
+- Variáveis globais deixam o código implícito
+- Dificultam testes unitários
+- Facilitam bugs
+
+```python
+# ❌ Ruim
+TAXA_GLOBAL = 0.1
+
+def calcular_valor_com_taxa(valor):
+    return valor * (1 + TAXA_GLOBAL)  # Depende de variável global
+
+# ✅ Bom
+def calcular_valor_com_taxa(valor: float, taxa: float) -> float:
+    """Calcula valor com taxa, recebendo ambos como parâmetros."""
+    return valor * (1 + taxa)
+```
+
+### DRY - Don't Repeat Yourself
+
+Reutilize código em vez de repetir:
+
+```python
+# ❌ Ruim - Código repetido
+def validar_email(email):
+    if "@" not in email:
+        raise ValueError("Email inválido")
+
+def validar_telefone(telefone):
+    if len(telefone) < 10:
+        raise ValueError("Telefone inválido")
+
+def enviar_email(email):
+    validar_email(email)
+    # ...
+
+def salvar_contato(email, telefone):
+    validar_email(email)
+    validar_telefone(telefone)
+    # ...
+
+# ✅ Bom - Código reutilizável
+def validar_campo(valor: str, min_tamanho: int = 1, requerido: bool = True):
+    """Valida um campo genérico."""
+    if requerido and not valor:
+        raise ValueError("Campo obrigatório")
+    if len(valor) < min_tamanho:
+        raise ValueError(f"Mínimo de {min_tamanho} caracteres")
+    return True
+
+def enviar_email(email):
+    validar_campo(email, min_tamanho=5)  # Validar como email
+    # ...
+```
+
+---
+
+## 🔍 10. Validação de Entradas
+
+### Sempre Valide Dados do Usuário
+
+Nunca confie cegamente em dados de entrada:
+
+```python
+def calcular_idade(ano_nascimento: int) -> int:
+    """Calcula idade com validação completa."""
+    
+    # Valida tipo
+    if not isinstance(ano_nascimento, int):
+        raise TypeError(f"Esperado int, recebido {type(ano_nascimento).__name__}")
+    
+    # Valida alcance
+    if ano_nascimento < 1900 or ano_nascimento > 2026:
+        raise ValueError(f"Ano inválido: {ano_nascimento}. Deve estar entre 1900 e 2026")
+    
+    # Calcula
+    idade = 2026 - ano_nascimento
+    
+    return idade
+```
+
+### Checklist de Validação
+
+- [ ] **Tipo de Dado**: O dado é do tipo esperado?
+- [ ] **Alcance**: O valor está dentro dos limites aceitos (mínimo, máximo)?
+- [ ] **Obrigatório**: Campos obrigatórios não são nulos?
+- [ ] **Formato**: O dado possui o formato esperado (email, telefone, etc)?
+- [ ] **Mensagens de Erro**: Os erros são claros e informativos?
+
+### Tratamento de Erros com Try/Except
+
+```python
+def processar_valor(valor_str: str) -> float:
+    """Processa valor com tratamento de erro."""
+    try:
+        # Tentar converter
+        valor = float(valor_str)
+        
+        # Validar alcance
+        if valor < 0:
+            raise ValueError("Valor não pode ser negativo")
+        
+        return valor
+    
+    except ValueError as e:
+        print(f"Erro ao processar valor: {e}")
+        raise
+    except Exception as e:
+        print(f"Erro inesperado: {e}")
+        raise
+```
+
+### Mensagens de Erro Significativas
+
+```python
+# ❌ Ruim - Mensagem genérica
+if not valor:
+    raise ValueError("Erro")
+
+# ✅ Bom - Mensagem clara e específica
+if not valor:
+    raise ValueError("Campo 'valor' obrigatório. Recebido valor vazio")
+
+if valor < 0:
+    raise ValueError(f"Campo 'valor' deve ser positivo. Recebido: {valor}")
+
+if not isinstance(valor, (int, float)):
+    raise TypeError(f"Campo 'valor' deve ser número. Recebido: {type(valor).__name__}")
+```
+
+---
+
+## 📖 Referências
+
+- [Clean Code - Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- [SOLID Principles](https://en.wikipedia.org/wiki/SOLID)
+- [PEP 8 - Style Guide for Python Code](https://pep8.org/)
+- [Python Exception Handling Best Practices](https://docs.python.org/3/tutorial/errors.html)
+
 **Atualizado em:** 02 de Fevereiro de 2026
 
 **Responsável:** Isaura (Documentação e Boas Práticas)
