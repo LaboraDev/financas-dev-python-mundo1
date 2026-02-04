@@ -69,30 +69,7 @@ Descrição dos Commits obrigatória: incluir contexto da mudança
 
 ---
 
-## ✅ 4. Padrão de Entrega
-Todo Daily deve ter:
-- Código com exemplos práticos e comentários
-- Arquivo de anotações
-- Commit com título e descrição.
-
-### ⚠️ Pontos Importantes
-- Manter sincronização GitHub ↔ Trello ↔ Anotações
-- Descrever sempre o que foi feito (commit messages claras)
-- Praticar todos os conceitos antes de passar para próxima aula
-- Documentar dúvidas para discussão em grupo
-- Fazer backup local diariamente
-  
----
-
-## 📅 5. Alinhamento com Trello
-
-- **Cartão no Trello**: O link do arquivo de anotação diária deve ser anexado ao cartão correspondente da Daily.
-- **Checklist**: Marque o item "Documentação" no Trello apenas após o commit no GitHub.
-- **Status**: Mova para "✅ Concluído" apenas quando o código e a documentação estiverem no repositório.
-
----
-
-## 📋 6. Estrutura Padrão de Documentação de Arquivo
+## 📋 4. Estrutura Padrão de Documentação de Arquivo
 
 ### Cabeçalho de Arquivo
 
@@ -135,7 +112,7 @@ def minha_funcao(param1: int, param2: str) -> bool:
 
 ---
 
-## 📖 7. Nomenclatura (PEP 8)
+## 📖 5. Nomenclatura (PEP 8)
 
 Mantenha os padrões de nomenclatura Python:
 
@@ -147,7 +124,7 @@ Mantenha os padrões de nomenclatura Python:
 
 ---
 
-## 📚 8. Comentários e Docstrings
+## 📚 6. Comentários e Docstrings
 
 ### Diferenças
 
@@ -173,7 +150,7 @@ ids = [1, 2, 3]
 
 ---
 
-## 📈 9. Changelog
+## 📈 7. Changelog
 
 Mantenha um registro de mudanças significativas no projeto:
 
@@ -194,7 +171,7 @@ DD/MM/AAAA - [TIPO] Descrição da mudança
 
 ---
 
-## 🔍 10. Testes
+## 🔍 8. Testes
 
 ### Estrutura de Testes
 
@@ -234,12 +211,35 @@ def test_calcular_idade_invalida():
 
 ---
 
-## 📝 Referéncias
+ ## 📝 Referéncias
 
 - [PEP 8 - Style Guide for Python](https://pep8.org/)
 - [PEP 257 - Docstring Conventions](https://www.python.org/dev/peps/pep-0257/)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 - [Documentação Oficial de Python](https://docs.python.org/3/)
+
+---
+
+## ✅ 9. Padrão de Entrega
+Todo Daily deve ter:
+- Código com exemplos práticos e comentários
+- Arquivo de anotações
+- Commit com título e descrição.
+
+### ⚠️ Pontos Importantes
+- Manter sincronização GitHub ↔ Trello ↔ Anotações
+- Descrever sempre o que foi feito (commit messages claras)
+- Praticar todos os conceitos antes de passar para próxima aula
+- Documentar dúvidas para discussão em grupo
+- Fazer backup local diariamente
+  
+---
+
+## 📅 10. Alinhamento com Trello
+
+- **Cartão no Trello**: O link do arquivo de anotação diária deve ser anexado ao cartão correspondente da Daily.
+- **Checklist**: Marque o item "Documentação" no Trello apenas após o commit no GitHub.
+- **Status**: Mova para "✅ Concluído" apenas quando o código e a documentação estiverem no repositório.
 
 **Atualizado em:** 04 de Fevereiro de 2026 | Hora: 14:14
 **Equipe:** Amélia, Ana, Isaura
