@@ -4,7 +4,7 @@
 # Importando a funcionalidade trunc da biblioteca math.
 from math import trunc
 
-# Utilizando a função input() para capturar o valor digigtado.
+# Utilizando a função input() para capturar o valor digitado.
 num = float(input("Digite um número real qualquer: "))
 
 # Aplicando a função para exibir somente a parte inteira do número.
@@ -105,6 +105,7 @@ random.shuffle(lista)
 
 # Visualizando o resultado formatado.
 print(f'A ordem de apresentação do trabalho será: {lista}!')
+
 
 
 
